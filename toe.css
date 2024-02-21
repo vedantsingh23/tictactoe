@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: burlywood;
+}
+
+.cell {
+    display: flex;
+    background-color:cadetblue;
+    border: 2px solid #000;
+}
+
+.cell:hover {
+    background-color: #e0e0e0;
+}
+
+#cells {
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    grid-template-rows: repeat(3, 150px);
+}
+
